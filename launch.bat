@@ -44,5 +44,6 @@ curl -L -o danbooru.py %DOWNLOAD_URL%
 :: Launch the app
 echo Launching danbooru.py...
 python danbooru.py
+echo Danbooru Image Downloader Launched!
 
 pause
