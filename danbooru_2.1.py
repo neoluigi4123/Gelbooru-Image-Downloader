@@ -9,8 +9,8 @@ from tkinter import ttk
 import threading
 
 current_version = 2.1
-latest_version_url = 'https://raw.githubusercontent.com/neoluigi4123/Gelbooru-Image-Downloader/main/latest'
-github_url = 'https://github.com/neoluigi4123/Gelbooru-Image-Downloader'
+latest_version_url = 'https://raw.githubusercontent.com/neoluigi4123/Danbooru-Image-Downloader/main/latest'
+github_url = 'https://github.com/neoluigi4123/Danbooru-Image-Downloader'
 
 stop_event = threading.Event()
 

@@ -39,11 +39,11 @@ echo Latest version is %VERSION%
 :: Construct the download URL based on the version number
 set DOWNLOAD_URL=https://raw.githubusercontent.com/neoluigi4123/Danbooru-Image-Downloader/main/danbooru_%VERSION%.py
 echo Downloading %DOWNLOAD_URL%...
-curl -L -o danbooru.py %DOWNLOAD_URL%
+curl -L -o Danbooru.py %DOWNLOAD_URL%
 
 :: Launch the app
 echo Launching danbooru.py...
-python danbooru.py
+python Danbooru.py
 echo Danbooru Image Downloader Launched!
 
 pause
